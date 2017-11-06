@@ -29,9 +29,9 @@ public class Customer {
 	}
 	
 	/**
-	 * Function calls buyBooks method in the implementation class 
+	 * Function calls buyBooks method of the BookStore class 
 	 * to find number of books that can be bought with given budget.
-	 * @param budget: Budget available to the customer to buy books.
+	 * @param bs: BookStore object to call the method.
 	 * @return PurchaseReceipt: Receipt for the books bought
 	 */
 	

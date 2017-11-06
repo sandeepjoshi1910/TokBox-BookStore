@@ -36,7 +36,7 @@ public class BookStore implements BookStoreService{
 	}
 	
 	/**
-	 * Getter function to get the initial price of the books
+	 * Getter function to return the initial price of the books
 	 * set by the bookstore
 	 * @return initPrice
 	 */
@@ -45,7 +45,7 @@ public class BookStore implements BookStoreService{
 	}
 	
 	/**
-	 * Getter function to get the discount offered by the bookstore
+	 * Getter function to return the discount offered by the bookstore
 	 * @return discount
 	 */	
 	public int getDiscount() {
@@ -53,7 +53,7 @@ public class BookStore implements BookStoreService{
 	}
 	
 	/**
-	 * Getter function to get the floor price of the books
+	 * Getter function to return the floor price of the books
 	 * set by the bookstore
 	 * @return floorPrice
 	 */

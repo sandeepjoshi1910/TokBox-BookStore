@@ -14,7 +14,7 @@ Gradle 4.3
 jdk1.8 +
 ```
 
-## Building and running junit tests
+### Building and running junit tests
 Use the below command to build the project and run unit tests:
 
 ```
@@ -23,18 +23,18 @@ cd TokBox-BookStore
 gradle test
 ```
 
-## Building and running the application with user values for BookStore(initPrice, discount, floorPrice) and Customer(budget)
+### Building and running the application with user values for BookStore(initPrice, discount, floorPrice) and Customer(budget)
 
 ```
 gradle run -PrunArgs='<initPrice> <discount> <floorPrice> <budget>'
 Specify the arguments as a space separated string with -PrunArgs
 ```
 
-## Automate builds with Github and Travis CI
+### Automate builds with Github and Travis CI
 [TravisCI](https://travis-ci.org/)
 Open Source TravisCI infrastructure to automate builds on each commit.
 
-## Code and Test Coverage
+### Code and Test Coverage
 * Unit Testing: 
 [Junit](http://junit.org/junit4/)
 Junit Test Cases for unit testing.
